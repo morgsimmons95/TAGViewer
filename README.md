@@ -6,7 +6,7 @@ The IP multiviewer system ("TAG") compounds hundreds of in-house video and audio
 
 I configured the multiviewer servers to output live HLS files of their composite feeds to an Ubuntu FTP server. The HLS files (.ts) are automatically organized into their own directories of 30-minute chunks with an associated playlist file (.m3u8).
 
-The front-end is a Bootstrap UX. The back-end is a Node.js application on a Express.js web server that utilizes HLS.js for streaming functionality and NGINX for serving larger files. The front-end and back-end communicate using a set of custom APIs. 
+The front-end is a Bootstrap UX. The back-end is a Node.js application on a Express.js web server that utilizes HLS.js for streaming functionality and NGINX for serving larger files. The front-end and back-end communicate using a set of custom APIs in app.js.
 
 ## Live Streams
 ![](https://github.com/morgsimmons95/TAGViewer/blob/main/TV_live.gif)
